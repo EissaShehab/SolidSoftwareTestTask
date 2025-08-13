@@ -1,16 +1,39 @@
-# solid_software_test_task
+This Flutter application fulfills the requirements of the Solid Software test task for the Junior Flutter Engineer position. The app displays the text "Hello there" in the center of the screen. Tapping anywhere on the screen changes the background to a random RGB color with a smooth animation.
+Features
 
-A new Flutter project.
+Displays "Hello there" in the center of the screen.
+Changes the background to a random RGB color (16,777,216 possible colors) on tap.
+Uses AnimatedContainer for a smooth 500ms color transition.
+Compliant with solid_lints for clean code practices.
+No external libraries used for color generation (relies on dart:math for random values).
 
-## Getting Started
+Requirements
 
-This project is a starting point for a Flutter application.
+Flutter SDK (version 3.0.0 or higher)
+Dart SDK (version 2.12.0 or higher)
+solid_lints for static code analysis
 
-A few resources to get you started if this is your first Flutter project:
+Setup Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the repository:git clone https://github.com/EissaShehab/SolidSoftwareTestTask.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Navigate to the project directory:cd SolidSoftwareTestTask
+
+
+Install dependencies:flutter pub get
+
+
+Run the app:flutter run
+
+
+
+Code Analysis
+
+The code adheres to solid_lints guidelines, ensuring clean and maintainable code.
+Run flutter analyze to verify no warnings or errors.
+
+Notes
+
+The app uses dart:math for random color generation, which is a core Dart library and not an external package.
+The animation duration is set to 500ms for a smooth user experience.
